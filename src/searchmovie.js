@@ -11,7 +11,7 @@ function SearchMovies()
     const searchMovies = async (e) => {
         e.preventDefault();
         
-        const url = `https://api.themoviedb.org/3/search/movie?api_key=37395534b25553aab760a37319408991&language=en-US&query=${query}&page=1&include_adult=false`;
+        const url = ``;
         
         try {
             const res = await fetch(url);
